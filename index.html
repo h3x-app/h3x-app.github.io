@@ -6,13 +6,12 @@
       font-family: Inter;
       src: url(inter.ttf);
     }
-    .body {
+    body {
+      margin: 0;
+      height: 100vh;
       display: flex;
       justify-content: center;
       align-items: center;
-    }
-    .center {
-      display: inline-block;
     }
     h1 {
       font-family: 'Inter', sans-serif;
@@ -23,14 +22,17 @@
       font-size: 0.75em;
       color: #A8A8A8;
     }
+    .center {
+      display: inline-block;
+    }
     </style>
   </head>
-  <div class="body">
+  <body>
     <div class="center">
       <h1>Hex</h1>
       <p>“Any sufficiently advanced technology<br>is indistinguishable from witchcraft.”</p>
       <img src="hex.jpg" />
       <p>Coming soon to iOS and Android</p>
     </div>
-  </div>
+  </body>
 </html>
