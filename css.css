@@ -1,0 +1,33 @@
+@font-face {
+  font-family: Inter;
+  src: url(inter.ttf);
+}
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-family: 'Inter', sans-serif;
+  font-size: 2em;
+}
+.primary {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82em;
+}
+.secondary {
+  font-family: 'Inter', sans-serif;
+  font-size: 0.82em;
+  color: #A8A8A8;
+}
+a {
+  color: #A8A8A8;
+}
+.center {
+  display: inline-block;
+}
+.image {
+  height: 66vh;
+}
